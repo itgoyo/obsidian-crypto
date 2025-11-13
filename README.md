@@ -8,6 +8,10 @@ A real-time cryptocurrency price tracker plugin for Obsidian that displays crypt
 
 > Track Bitcoin, Ethereum, Binance Coin, and any custom cryptocurrency directly in your Obsidian workspace!
 
+<img width="1035" height="338" alt="image" src="https://github.com/user-attachments/assets/72d07efa-194e-4d15-828b-894a55ef2a7c" />
+<img width="846" height="848" alt="image" src="https://github.com/user-attachments/assets/0c8eff92-d581-4c3a-a382-a3852ffbe64e" />
+
+
 ## Features
 
 - **Real-time Price Updates**: Automatically fetches and displays cryptocurrency prices from Binance API
