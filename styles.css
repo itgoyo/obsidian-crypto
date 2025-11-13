@@ -1,8 +1,67 @@
-/*
+/* Crypto Price Tracker Styles */
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+.crypto-status-item {
+	cursor: pointer;
+	padding: 0 8px;
+	font-weight: 500;
+	transition: opacity 0.2s;
+}
 
-If your plugin does not need CSS, delete this file.
+.crypto-status-item:hover {
+	opacity: 0.8;
+}
 
-*/
+.crypto-up {
+	color: #4caf50;
+}
+
+.crypto-down {
+	color: #f44336;
+}
+
+.crypto-neutral {
+	color: var(--text-muted);
+}
+
+.crypto-arrow {
+	font-size: 0.9em;
+	margin-left: 2px;
+}
+
+/* Settings page styles */
+.crypto-add-container {
+	margin: 20px 0;
+}
+
+.crypto-list-container {
+	margin-top: 15px;
+}
+
+.crypto-price-info {
+	margin-top: 20px;
+	padding: 15px;
+	background: var(--background-secondary);
+	border-radius: 8px;
+}
+
+.crypto-price-item {
+	padding: 8px 0;
+	border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.crypto-price-item:last-child {
+	border-bottom: none;
+}
+
+.crypto-price-item strong {
+	color: var(--text-normal);
+}
+
+/* Dark mode adjustments */
+.theme-dark .crypto-up {
+	color: #66bb6a;
+}
+
+.theme-dark .crypto-down {
+	color: #ef5350;
+}
